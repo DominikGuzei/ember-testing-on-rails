@@ -1,8 +1,10 @@
 
-#= require jquery
-#= require jquery_ujs
-#= require lib/ember
+define 'app', ->
 
-App = Ember.Application.create()
+  Ember.Application.extend {
 
-@App = App
+    statechart: null,
+
+    ready: ->
+      if @statechart then @statechart.initStatechart()
+  }

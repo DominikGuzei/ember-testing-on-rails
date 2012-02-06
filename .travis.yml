@@ -3,4 +3,4 @@ language: ruby
 rvm:
   - 1.9.3
 
-script: 'bundle exec guard-jasmine'
+script: 'bundle exec guard-jasmine -e development'
