@@ -7,4 +7,4 @@ before_script:
   - "sh -e /etc/init.d/xvfb start"
   - sleep 5
 
-script: bundle exec guard-jasmine
+script: bundle exec guard-jasmine -e development
