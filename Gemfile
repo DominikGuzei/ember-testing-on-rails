@@ -14,7 +14,7 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'jasminerice'
+  gem 'jasminerice', :git => 'git://github.com/DominikGuzei/jasminerice.git'
   gem 'guard-jasmine'
   gem 'growl'
 end
