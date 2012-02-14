@@ -1,4 +1,4 @@
-Ember.js Testing with Ruby on Rails [![Build Status](https://secure.travis-ci.org/[DominikGuzei]/[ember-testing-on-rails].png??branch=master)](http://travis-ci.org/[DominikGuzei]/[ember-testing-on-rails])
+Ember.js Testing with Ruby on Rails [![Build Status](https://secure.travis-ci.org/DominikGuzei/ember-testing-on-rails.png??branch=master)](http://travis-ci.org/DominikGuzei/ember-testing-on-rails)
 ===================================
 
 This project shows how to test your [Ember.js](http://www.emberjs.com/) projects
